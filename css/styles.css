@@ -21,8 +21,12 @@
     line-height: 1.2;
 }
 
-.logo .word{
+.logo .web{
     color: var(--accent-color);
+}
+
+.logo .studio{
+    color: var(--white-text-color);
 }
 
 .site-nav .link{
@@ -37,12 +41,21 @@
 color: var(--accent-color);
 }
 
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+
 .contacts{
     color: var(--primary-text-color);
     text-decoration: none;
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+}
+
+.contacts.footer{
+    color: #FFFFFF99;
 }
 
 .contacts:hover,
@@ -52,12 +65,18 @@ color: var(--accent-color);
 
 .adress{
     color: var(--white-text-color); 
-    background: #2F303A;
     text-decoration: none;
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 2;   
 }
+
+.footer{
+    background-color: #2F303A;
+}
+
+
 
 
 /* Body studio */
@@ -78,6 +97,7 @@ h1, h2, h3{
 .service-button{
     color: var(--white-text-color);
     background-color: var(--accent-color);
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
@@ -92,6 +112,7 @@ h1, h2, h3{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
+    text-transform: uppercase;
 }
 
 .values-text{
@@ -124,6 +145,7 @@ h1, h2, h3{
 
 .button{
     cursor: pointer;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -138,14 +160,14 @@ h1, h2, h3{
 .title{
     color: var(--title-text-color);
     font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+    font-size: 18px;
+    line-height: 2;
 }
 
 .text{
     font-weight: 400;
     font-size: 14px;
-    line-height: 2;
+    line-height: 1.8;
 }
 
 
