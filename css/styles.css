@@ -88,6 +88,7 @@ color: var(--accent-color);
     font-size: 44px;
     line-height: 1.5;
     text-align: center;
+    text-transform: uppercase;
 }
 
 h1, h2, h3{
